@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
     }
-    public void initView(){
+    public void initView()
+    {
         populateData();
         rvCountryList=findViewById(R.id.rv_Students);
         RecyclerView.LayoutManager mL = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
